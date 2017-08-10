@@ -1,6 +1,6 @@
 {
   "name": "windows-shortcuts-ps",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Read Windows shortcuts without native dependencies (Windows 7 and up)",
   "main": "lib/index.js",
   "scripts": {
