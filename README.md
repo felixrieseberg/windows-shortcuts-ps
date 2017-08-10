@@ -5,7 +5,7 @@ npm install windows-shortcut-ps
 ```
 
 ```js
-const { getPath } = require('windows-shortcut-ps`)
+const { getPath } = require('windows-shortcut-ps')
 
 getPath('./my-shortcut.lnk').then((actualPath) => console.log(actualPath))
 ```
@@ -17,7 +17,7 @@ twenty times will take 14 seconds.
 
 
 ```js
-const { getPath } = require('windows-shortcut-ps`)
+const { getPath } = require('windows-shortcut-ps')
 
 const linkPaths = [ './sc1.lnk', './sc2.lnl' ]
 

@@ -1,7 +1,7 @@
 {
   "name": "windows-shortcuts-ps",
   "version": "1.0.0",
-  "description": "Read Windows shortcuts using PowerShell (Windows 7 and up)",
+  "description": "Read Windows shortcuts without native dependencies (Windows 7 and up)",
   "main": "lib/index.js",
   "scripts": {
     "test": "standard && node ./test/test.js"
