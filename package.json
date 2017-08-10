@@ -1,0 +1,28 @@
+{
+  "name": "windows-shortcuts-ps",
+  "version": "1.0.0",
+  "description": "Read Windows shortcuts using PowerShell (Windows 7 and up)",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "standard && node ./test/test.js"
+  },
+  "repository": "https://github.com/felixrieseberg/windows-shortcuts-ps",
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/felixrieseberg/windows-shortcuts-ps/blob/master/LICENSE"
+    }
+  ],
+  "author": {
+    "email": "felix@felixrieseberg.com",
+    "name": "Felix Rieseberg",
+    "url": "http://www.felixrieseberg.com"
+  },
+  "keywords": [
+    "windows",
+    "lnk",
+    "shortcut",
+    "shortcuts"
+  ]
+}
