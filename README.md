@@ -21,7 +21,7 @@ const { getPath } = require('windows-shortcut-ps')
 
 const linkPaths = [ './sc1.lnk', './sc2.lnl' ]
 
-getPath('./my-shortcut.lnk').then((actualPaths) => {
+getPath(linkPaths).then((actualPaths) => {
   linkPaths.forEach((shortcutPath, i) => {
     console.log(`The real path for ${shortcutPath} is ${actualpaths[i]})
   })
